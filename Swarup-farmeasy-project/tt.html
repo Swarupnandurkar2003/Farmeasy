@@ -1,0 +1,220 @@
+<html>
+    <head>
+
+
+
+    </head>
+
+    <body>
+        
+
+        <head>
+            <link rel="stylesheet" href="TtStyle.css">
+            <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,300&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,300&family=Roboto&display=swap" rel="stylesheet">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>ELECTRICITY Time Table</title>
+        </head>
+        <body>
+        <header>
+            <h1>💡 ELECTRICITY TIME TABLE 💡</h1>
+        </header>
+        <article>
+            <table class="all" align="center">
+                <thead>
+                    <tr>
+                        <th class="days t">Time</th>
+                        <th class="days">Monday</th>
+                        <th class="days">Tuesday</th>
+                        <th class="days">Wednesday</th>
+                        <th class="days">Thursday</th>
+                        <th class="days">Friday</th>
+                        <th class="days s">Saturday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="time">09:30</th>
+                        <td>CUT</td>  <!-- Monday-->
+                        <td>___</td><!-- Tuesday-->
+                        <td>___</td><!-- Wednesday-->
+                        <td>___</td> <!-- Thursday-->
+                        <td>___</td><!-- Friday-->
+                        <td class="lastrows">___</td><!-- Saturday-->
+                    </tr>
+                    <tr>
+                        <th class="time">10:30</th>
+                        <td>___</td> <!-- Monday-->
+                        <td>___</td><!-- Tuesday-->
+                        <td>___</td><!-- Wednesday-->
+                        <td>CUT</td><!-- Thursday-->
+                        <td>___</td><!-- Friday-->
+                        <td class="lastrows">___</td><!-- Saturday-->
+                    </tr>
+                    <tr>
+                        <th class="time">12:15</th>
+                        <td>___</td> <!-- Monday-->
+                        <td>___</td><!-- Tuesday-->
+                        <td>CUT</td><!-- Wednesday-->
+                        <td>___</td><!-- Thursday-->
+                        <td>___</td><!-- Friday-->
+                        <td class="lastrows">___</td><!-- Saturday-->
+                    </tr>
+                    <tr>
+                        <th class="time">12:30</th>
+                        <td>___</td> <!-- Monday-->
+                        <td>___</td><!-- Tuesday-->
+                        <td>___</td><!-- Wednesday-->
+                        <td>___</td><!-- Thursday-->
+                        <td>CUT</td><!-- Friday-->
+                        <td class="lastrows">___</td><!-- Saturday-->
+                    </tr>
+                    <tr>
+                        <th class="time">01:15</th>
+                        <td>___</td> <!-- Monday-->
+                        <td>___</td><!-- Tuesday-->
+                        <td>___</td><!-- Wednesday-->
+                        <td>___</td><!-- Thursday-->
+                        <td>___</td><!-- Friday-->
+                        <td class="lastrows">___</td><!-- Saturday-->
+                    </tr>
+                    <tr>
+                        <th class="time">02:30</th>
+                        <td>CUT</td> <!-- Monday-->
+                        <td>___</td><!-- Tuesday-->
+                        <td>___</td><!-- Wednesday-->
+                        <td>___</td><!-- Thursday-->
+                        <td>___</td><!-- Friday-->
+                        <td class="lastrows">___</td><!-- Saturday-->
+                    </tr>
+                    <tr>
+                        <th class="time">03:00</th>
+                        <td>___</td> <!-- Monday-->
+                        <td>___</td><!-- Tuesday-->
+                        <td>___</td><!-- Wednesday-->
+                        <td>CUT</td><!-- Thursday-->
+                        <td>___</td><!-- Friday-->
+                        <td class="lastrows">___</td><!-- Saturday-->
+                    </tr>
+                    <tr>
+                        <th class="time">03:30</th>
+                        <td>___</td> <!-- Monday-->
+                        <td>___</td><!-- Tuesday-->
+                        <td>___</td><!-- Wednesday-->
+                        <td>___</td><!-- Thursday-->
+                        <td>___</td><!-- Friday-->
+                        <td class="lastrows">___</td><!-- Saturday-->
+                    </tr>
+                    <tr class="last">
+                        <th class="time lr">05:35</th>
+                        <td class="lr">___</td> <!-- Monday-->
+                        <td class="lr">___</td><!-- Tuesday-->
+                        <td class="lr">___</td><!-- Wednesday-->
+                        <td class="lr">___</td><!-- Thursday-->
+                        <td class="lr">___</td><!-- Friday-->
+                        <td class="lastrows lr">___</td><!-- Saturday-->
+                </tbody>
+            </table>
+        </article>
+          <br>
+       
+
+
+
+
+<style>
+
+
+* {
+    font-family: 'Bellota', cursive;
+/*     font-family: 'Roboto', sans-serif; */
+}
+body {/*
+    background-image: linear-gradient(to top, #1c92d2 0%, #f2fcfe 60%);
+*/
+background-color: lightblue;
+/* background-image: linear-gradient(135deg,#fdfcfb 0%,          #e2d1c3 100%); */
+}
+.all {
+    border-collapse: collapse;
+    font-size: 0.95em;
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    min-width: 400px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.45);
+    text-align: center;
+}
+h1{
+    padding-bottom: 3px;
+    scroll-padding-top: 3px;
+    text-align: center;
+}
+thead, th {
+    background-color: beige
+}
+.all th, .all td {
+    padding: 15px 20px;
+}
+.days {
+  border-top: 2px solid black;
+}
+.t {
+  border-left: 2px solid black;
+}
+.s {
+  border-right: 2px solid black;
+}
+.time, .t {
+  border-left: 2px solid black;
+}
+.lastrows {
+  border-right: 2px solid black;
+}
+.lr {
+  border-bottom: 2px solid black;
+}
+tbody tr:nth-of-type(odd){
+    background-color: lightgrey;
+}
+@media (max-width: 500px) {
+    h1 {
+      font-size: 50px;
+      margin-top: 20px;
+      line-height: 40px;
+      text-align: center;
+    }
+    .all {
+        border-collapse: collapse;
+        font-size: 0.8em;
+        border-radius: 2px 2px 0 0;
+        overflow: hidden;
+        min-width: 400px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+        text-align: center;
+    }
+    .all th, .all td {
+        padding: 10px 15px;
+    }
+}
+
+
+/* If you want to add margins on the end of each column then add:*/
+/* If only to th, if you want to add border to data as well then add ",td" */
+th {
+  border-right: 2px solid black;
+  border-left: 2px solid black; 
+  border-top: 2px solid black; 
+  border-bottom: 2px solid black;
+}
+
+
+</style>    
+
+
+</body>
+
+</html>
+
+
+    </body>

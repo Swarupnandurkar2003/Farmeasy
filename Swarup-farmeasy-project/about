@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about</title>
+</head>
+<body style="background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+">
+  <center>
+  <h1>👨🏼‍💻 ABOUT 👨🏼‍💻</h1>
+</center>
+<h1 style="font-size:50px ;" >
+  <div class="card">
+ Hello this is an demo project made by swarup  for the actual representation of how a web_ portal can help the farmer of our country in better way.
+ <br>
+ 
+</div>
+<center>
+  <img style="border-radius: 50%;" "height: 110px" width="110px"  src="D:\study\l\c.jpeg" alt="">
+<h1>
+  <center>
+    -Guide-
+  </center>
+PROF.CHANDAN GADGE
+</h1>
+</center>
+
+<center>
+  <img style="border-radius: 50%;" "height: 110px" width="110px"  src="D:\study\l\t.jpeg" alt="">
+<h1>
+PROF.RA TIWARI
+<center>
+-H.O.D-
+</center>
+
+</h1>
+</center>
+<br><br><br><br>
+<center>
+<h1>👨🏼‍🎓TEAM👩🏼‍🎓</h1>
+</center>
+<center>
+   Siddharth Gawande</center>
+   <center>
+   Sumit Deshmukh</center>
+   <center> Swarup Nandurkar</center>
+    <center> Komal Kathoye</center>
+      <center> Tanisha Bijore
+      </center>
+</body>
+<style>
+  .shape {
+  position: absolute;
+  width: 150px;
+  top: .5rem;
+  left: .5rem;
+}
+
+.card {
+  width: auto;
+  height: auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.495);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+
+p, a {
+  font-size: 1rem;
+}
+
+a {
+  color: #4d4ae8;
+  text-decoration: none;
+}
+</style>
+</html>

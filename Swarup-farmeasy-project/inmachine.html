@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+<body style="background-image: linear-gradient(to top, #00c9ff  0%, #00c9ff 60%);">
+
+
+
+    <div class="container">
+	
+        <div class="header-bar">
+         
+          <ul class="slider-menu">
+      <li><a href="D:\project\New folder\frontpage.html">&#10067;Home</a></li>
+            <li>About &#10067;</li>
+            <li>&#x1F4A0; Services</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    
+      
+
+
+
+
+
+
+
+      <div class="cards-list">
+  
+        <div  class="card 1">  
+        <div class="card_image"> <img src="https://cdn.dribbble.com/users/602602/screenshots/3788145/3.gif" width=""height="30%"> </a></div>
+          <div class="card_title title-white">
+            <a href="https://farmeasy12.000webhostapp.com/intract.html">TRACTORS</a>
+          </div>
+        </div>
+        
+          <div class="card 2">
+          <div class="card_image">
+            <img src="https://cdn.dribbble.com/users/200955/screenshots/4435009/ikke-navngivet-2.gif" />
+            </div>
+          <div class="card_title title-white">
+            <a href="https://farmeasy12.000webhostapp.com/harvestor.html">HARVESTORS</a>
+          </div>
+        </div>
+        
+        <div class="card 3">
+          <div class="card_image" >
+            <img src="https://media1.giphy.com/media/3og0ILgFOEXIL8Bsn6/giphy.gif" style="background-color: beige;" />
+          </div>
+          <div class="card_title">
+            <a href="https://farmeasy12.000webhostapp.com/tools.html">TOOLS</a>
+          </div>
+        </div>
+          
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+<style>
+
+
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Quicksand&display=swap');
+html, body {
+	
+	margin: 20;}
+.container {
+max-width: 100%;	
+	margin-bottom:100px;
+
+}
+.lead { font-family: 'Quicksand'; }
+.header-bar {
+	position:relative;
+	width: 100%;
+  margin-top: 0;
+	
+	height: 50px;
+	border: 10px solid transparent;
+	border-top: 10px solid rgba(85, 247, 71, 0.667);
+	border-left: 10px solid rgba(110, 41, 41, 0.667);
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25) inset;
+}
+.header-bar::after {
+	content: '';
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	width: 30%;
+	height: 49px;
+	border: 10px solid transparent;
+	border-bottom: 20px solid #e64c4c ;
+	border-right: 10px solid rgba(118, 255, 100, 0.667);
+	transition: 0.3s linear all;
+}
+.header-bar  .logo {
+	position: absolute;
+	top: calc(50% - 20px);
+	left: 10px;
+	transform: translateY(-50%);
+	;
+	user-select: none;
+}
+.slider-menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+.slider-menu > li {
+	display: inline-flex;
+	padding: 14px;
+	margin-left: 2px;
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.3s linear all;
+	user-select: none;
+}
+.slider-menu > li:hover {
+	color: #faa;
+	box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
+}
+.aeu-signature {
+	position: fixed;
+	top: 5px;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 15px;
+	line-height: 30px;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 25px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.aeu-signature { font-family: "Quicksand"; }
+.aeu-signature > img { height: 30px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  
+  width: 300px;
+  height: 390px;
+  border-radius: 40px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </style>
+    
+</body>
+</html>
